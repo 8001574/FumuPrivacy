@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>《浮幕》隐私政策</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    margin: 0 auto;
+    padding: 24px 18px 64px;
+    max-width: 760px;
+    font: 16px/1.75 -apple-system, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+    color: #1c1c1e;
+    background: #fff;
+    word-wrap: break-word;
+  }
+  h1 { font-size: 26px; margin: 8px 0 4px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; padding-top: 8px; }
+  p, li { margin: 8px 0; }
+  ul { padding-left: 22px; }
+  .meta { color: #6e6e73; font-size: 14px; margin-bottom: 8px; }
+  .lead {
+    background: #f2f2f7;
+    border-left: 3px solid #0a84ff;
+    padding: 12px 14px;
+    border-radius: 6px;
+    margin: 20px 0;
+  }
+  table { border-collapse: collapse; width: 100%; margin: 12px 0; font-size: 15px; }
+  th, td { border: 1px solid #d8d8dd; padding: 8px 10px; text-align: left; vertical-align: top; }
+  th { background: #f2f2f7; }
+  a { color: #0a84ff; }
+  strong { font-weight: 600; }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; background: #000; }
+    .lead { background: #1c1c1e; }
+    th { background: #1c1c1e; }
+    th, td { border-color: #38383a; }
+    .meta { color: #98989d; }
+  }
+</style>
+</head>
+<body>
+
+<h1>《浮幕》隐私政策</h1>
+<p class="meta">生效日期：2026 年 9 月 24 日 ｜ 更新日期：2026 年 9 月 24 日</p>
+
+<div class="lead">
+  <p><strong>一句话概括：《浮幕》不收集你的任何个人信息。</strong></p>
+  <p>你的音视频内容与文字数据全部只在你的设备上处理，不会被上传到任何服务器。我们（开发者）无法看到、获取或恢复其中的任何内容。</p>
+</div>
+
+<p>《浮幕》（以下简称"本应用"）是一款运行于 iOS 设备的实时字幕、翻译与配音工具。本政策说明本应用如何处理你的信息。请在使用前阅读并理解本政策。</p>
+
+<h2>一、我们不收集哪些信息</h2>
+<p>本应用<strong>不会</strong>收集、上传、存储或共享下列任何信息：</p>
+<ul>
+  <li>你导入或播放的音视频文件，以及其中的音频、字幕、翻译与配音内容；</li>
+  <li>实时字幕采集到的声音（麦克风收音 / 系统广播音频）及其识别文本；</li>
+  <li>姓名、手机号、邮箱、身份证件、通讯录、地理位置、日历等个人信息；</li>
+  <li>设备标识符（IDFA/IDFV）、IP 地址、崩溃日志、使用行为或统计数据。</li>
+</ul>
+<p>本应用<strong>不提供也不需要帐号注册与登录</strong>，不接入任何第三方广告、统计、分析或社交 SDK。</p>
+
+<h2>二、本应用如何处理你的数据</h2>
+<p>本应用的全部核心功能均在你的设备本地完成，具体如下：</p>
+<table>
+  <tr><th>处理环节</th><th>说明</th></tr>
+  <tr>
+    <td>语音识别（字幕）</td>
+    <td>使用 Apple 操作系统内置的设备端语音识别引擎，<strong>完全在本机离线运行</strong>。仅首次使用某种语言时，需要联网从 Apple 下载对应的语言模型。</td>
+  </tr>
+  <tr>
+    <td>翻译</td>
+    <td>由系统内置翻译能力在本机完成，文本不经过我们的服务器（我们也没有服务器）。</td>
+  </tr>
+  <tr>
+    <td>配音合成</td>
+    <td>由系统本机语音合成引擎完成，合成音频仅在你的设备上播放或写入导出文件。</td>
+  </tr>
+  <tr>
+    <td>导入视频</td>
+    <td>通过系统相册选择器与"文件"选择器读取<strong>你显式选中的</strong>文件，并拷贝到本应用沙盒。本应用无法浏览你相册或文件中的其他内容。</td>
+  </tr>
+  <tr>
+    <td>实时悬浮字幕</td>
+    <td>麦克风或系统广播采集的音频仅用于本机实时识别，处理后即丢弃，不做留存与上传。</td>
+  </tr>
+  <tr>
+    <td>导出与保存</td>
+    <td>字幕（SRT/TXT）、配音音轨与合成视频保存在本应用沙盒内；仅在你主动点击分享并选择目标时，才会把文件交给你选定的目标。该行为由你发起并控制。</td>
+  </tr>
+</table>
+
+<h2>三、设备权限说明</h2>
+<table>
+  <tr><th>权限</th><th>用途</th><th>拒绝的后果</th></tr>
+  <tr>
+    <td>麦克风</td>
+    <td>实时字幕的现场收音，音频仅在本机由设备端引擎处理。</td>
+    <td>无法使用"麦克风收音"模式的实时字幕。</td>
+  </tr>
+  <tr>
+    <td>语音识别</td>
+    <td>调用系统设备端识别引擎（音频不经由本应用上传）。</td>
+    <td>无法生成字幕。</td>
+  </tr>
+  <tr>
+    <td>照片</td>
+    <td>读取你主动选择的视频文件。</td>
+    <td>无法从相册导入视频。</td>
+  </tr>
+  <tr>
+    <td>屏幕录制（系统广播）</td>
+    <td>仅在你主动开启时采集设备音频输出，内容实时本机处理、不留存。</td>
+    <td>无法使用"系统音频"模式的实时字幕。</td>
+  </tr>
+</table>
+
+<h2>四、文件存储</h2>
+<p>你导入的视频与导出的产物（字幕、音频、视频）仅保存在本应用的沙盒目录中，受 iOS 系统的文件保护机制保护，其他应用无法访问。你可以在应用内随时删除这些文件；卸载本应用即全部清除。</p>
+
+<h2>五、内购</h2>
+<p>本应用提供一次性买断的内购项目。内购交易由 Apple 处理并受<a href="https://www.apple.com/legal/privacy/szh/"> Apple 隐私政策</a>约束。本应用不接收任何交易明细，仅在设备上保留"是否已解锁"的状态标记；免费试用计时同样只保存在你的设备上。</p>
+
+<h2>六、未成年人</h2>
+<p>本应用不面向未满 14 周岁的儿童设计，不收集任何年龄信息。如发现未成年人使用本应用产生的问题，可联系我们处理。</p>
+
+<h2>七、政策变更</h2>
+<p>若本政策发生重大变更，我们会更新本页面并修订日期。继续使用即视为接受修订后的政策。</p>
+
+<h2>八、联系我们</h2>
+<p>如对本隐私政策有任何疑问，请通过 App Store 开发者页面提供的联系方式与我们联系。</p>
+
+</body>
+</html>
